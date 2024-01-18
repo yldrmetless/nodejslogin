@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: rgba(123, 123, 128, 0.5);
+    ;
+
+}
+
+.navbar ul {
+
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+
+.navbar ul li a {
+    color: rgba(72, 73, 139, 0.5);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.navbar ul li a:hover {
+    background: rgba(52, 52, 53, 0.5);
+}
+
+.navbar a {
+    color: #efefef !important;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+.form-div {
+    width: 700px;
+    height: 400px;
+    background-color: rgba(121, 121, 128, 0.5);
+}
+
+.formText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.formText h1 {
+    background-color: rgba(211, 7, 7, 0.5);
+}
+
+
+table thead tr th{
+    width: 20%;
+}
